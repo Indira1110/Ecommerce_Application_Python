@@ -1,0 +1,1294 @@
+versions pytest-8.4.2, python-3.9.6.final.0
+invocation_dir=/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework
+cwd=/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework
+args=('tests/cart_flow/test_cart_flow.py', '--debug', '-v')
+
+  pytest_cmdline_main [hook]
+      config: <_pytest.config.Config object at 0x109f0c400>
+    pytest_plugin_registered [hook]
+        plugin: <Session  exitstatus='<UNSET>' testsfailed=0 testscollected=0>
+        plugin_name: session
+        manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+    finish pytest_plugin_registered --> [] [hook]
+    pytest_configure [hook]
+        config: <_pytest.config.Config object at 0x109f0c400>
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x10a10e460>
+          plugin_name: lfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x10a10e5b0>
+          plugin_name: nfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+    early skip of rewriting module: faulthandler [assertion]
+      pytest_plugin_registered [hook]
+          plugin: <class '_pytest.legacypath.LegacyTmpdirPlugin'>
+          plugin_name: legacypath-tmpdir
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+    early skip of rewriting module: pdb [assertion]
+    early skip of rewriting module: cmd [assertion]
+    early skip of rewriting module: code [assertion]
+    early skip of rewriting module: codeop [assertion]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.PytestPluginManager object at 0x10923b580>
+          plugin_name: 4448302464
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.Config object at 0x109f0c400>
+          plugin_name: pytestconfig
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.mark' from '/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.venv/lib/python3.9/site-packages/_pytest/mark/__init__.py'>
+          plugin_name: mark
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.main' from '/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.venv/lib/python3.9/site-packages/_pytest/main.py'>
+          plugin_name: main
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.runner' from '/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.venv/lib/python3.9/site-packages/_pytest/runner.py'>
+          plugin_name: runner
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.fixtures' from '/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.venv/lib/python3.9/site-packages/_pytest/fixtures.py'>
+          plugin_name: fixtures
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.helpconfig' from '/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.venv/lib/python3.9/site-packages/_pytest/helpconfig.py'>
+          plugin_name: helpconfig
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python' from '/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.venv/lib/python3.9/site-packages/_pytest/python.py'>
+          plugin_name: python
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminal' from '/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.venv/lib/python3.9/site-packages/_pytest/terminal.py'>
+          plugin_name: terminal
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.debugging' from '/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.venv/lib/python3.9/site-packages/_pytest/debugging.py'>
+          plugin_name: debugging
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unittest' from '/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.venv/lib/python3.9/site-packages/_pytest/unittest.py'>
+          plugin_name: unittest
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.capture' from '/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.venv/lib/python3.9/site-packages/_pytest/capture.py'>
+          plugin_name: capture
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.skipping' from '/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.venv/lib/python3.9/site-packages/_pytest/skipping.py'>
+          plugin_name: skipping
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.legacypath' from '/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.venv/lib/python3.9/site-packages/_pytest/legacypath.py'>
+          plugin_name: legacypath
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.tmpdir' from '/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.venv/lib/python3.9/site-packages/_pytest/tmpdir.py'>
+          plugin_name: tmpdir
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.monkeypatch' from '/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.venv/lib/python3.9/site-packages/_pytest/monkeypatch.py'>
+          plugin_name: monkeypatch
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.recwarn' from '/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.venv/lib/python3.9/site-packages/_pytest/recwarn.py'>
+          plugin_name: recwarn
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.pastebin' from '/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.venv/lib/python3.9/site-packages/_pytest/pastebin.py'>
+          plugin_name: pastebin
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.assertion' from '/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.venv/lib/python3.9/site-packages/_pytest/assertion/__init__.py'>
+          plugin_name: assertion
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.junitxml' from '/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.venv/lib/python3.9/site-packages/_pytest/junitxml.py'>
+          plugin_name: junitxml
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.doctest' from '/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.venv/lib/python3.9/site-packages/_pytest/doctest.py'>
+          plugin_name: doctest
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.cacheprovider' from '/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.venv/lib/python3.9/site-packages/_pytest/cacheprovider.py'>
+          plugin_name: cacheprovider
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.freeze_support' from '/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.venv/lib/python3.9/site-packages/_pytest/freeze_support.py'>
+          plugin_name: freeze_support
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setuponly' from '/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.venv/lib/python3.9/site-packages/_pytest/setuponly.py'>
+          plugin_name: setuponly
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setupplan' from '/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.venv/lib/python3.9/site-packages/_pytest/setupplan.py'>
+          plugin_name: setupplan
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.stepwise' from '/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.venv/lib/python3.9/site-packages/_pytest/stepwise.py'>
+          plugin_name: stepwise
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unraisableexception' from '/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.venv/lib/python3.9/site-packages/_pytest/unraisableexception.py'>
+          plugin_name: unraisableexception
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.threadexception' from '/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.venv/lib/python3.9/site-packages/_pytest/threadexception.py'>
+          plugin_name: threadexception
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.warnings' from '/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.venv/lib/python3.9/site-packages/_pytest/warnings.py'>
+          plugin_name: warnings
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.logging' from '/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.venv/lib/python3.9/site-packages/_pytest/logging.py'>
+          plugin_name: logging
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.reports' from '/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.venv/lib/python3.9/site-packages/_pytest/reports.py'>
+          plugin_name: reports
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.faulthandler' from '/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.venv/lib/python3.9/site-packages/_pytest/faulthandler.py'>
+          plugin_name: faulthandler
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_base_url.plugin' from '/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.venv/lib/python3.9/site-packages/pytest_base_url/plugin.py'>
+          plugin_name: base_url
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_playwright.pytest_playwright' from '/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.venv/lib/python3.9/site-packages/pytest_playwright/pytest_playwright.py'>
+          plugin_name: playwright
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <CaptureManager _method='fd' _global_capturing=<MultiCapture out=<FDCapture 1 oldfd=6 _state='suspended' tmpfile=<_io.TextIOWrapper name="<_io.FileIO name=7 mode='rb+' closefd=True>" mode='r+' encoding='utf-8'>> err=<FDCapture 2 oldfd=8 _state='suspended' tmpfile=<_io.TextIOWrapper name="<_io.FileIO name=9 mode='rb+' closefd=True>" mode='r+' encoding='utf-8'>> in_=<FDCapture 0 oldfd=4 _state='started' tmpfile=<_io.TextIOWrapper name='/dev/null' mode='r' encoding='utf-8'>> _state='suspended' _in_suspended=False> _capture_fixture=None>
+          plugin_name: capturemanager
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'tests.conftest' from '/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/tests/conftest.py'>
+          plugin_name: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/tests/conftest.py
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          plugin_name: session
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x10a10e460>
+          plugin_name: lfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x10a10e5b0>
+          plugin_name: nfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <class '_pytest.legacypath.LegacyTmpdirPlugin'>
+          plugin_name: legacypath-tmpdir
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalReporter object at 0x10a1124f0>
+          plugin_name: terminalreporter
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.logging.LoggingPlugin object at 0x10a0f5310>
+          plugin_name: logging-plugin
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+    finish pytest_configure --> [] [hook]
+    pytest_sessionstart [hook]
+        session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.PytestPluginManager object at 0x10923b580>
+          plugin_name: 4448302464
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.Config object at 0x109f0c400>
+          plugin_name: pytestconfig
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.mark' from '/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.venv/lib/python3.9/site-packages/_pytest/mark/__init__.py'>
+          plugin_name: mark
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.main' from '/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.venv/lib/python3.9/site-packages/_pytest/main.py'>
+          plugin_name: main
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.runner' from '/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.venv/lib/python3.9/site-packages/_pytest/runner.py'>
+          plugin_name: runner
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.fixtures' from '/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.venv/lib/python3.9/site-packages/_pytest/fixtures.py'>
+          plugin_name: fixtures
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.helpconfig' from '/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.venv/lib/python3.9/site-packages/_pytest/helpconfig.py'>
+          plugin_name: helpconfig
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python' from '/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.venv/lib/python3.9/site-packages/_pytest/python.py'>
+          plugin_name: python
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminal' from '/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.venv/lib/python3.9/site-packages/_pytest/terminal.py'>
+          plugin_name: terminal
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.debugging' from '/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.venv/lib/python3.9/site-packages/_pytest/debugging.py'>
+          plugin_name: debugging
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unittest' from '/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.venv/lib/python3.9/site-packages/_pytest/unittest.py'>
+          plugin_name: unittest
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.capture' from '/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.venv/lib/python3.9/site-packages/_pytest/capture.py'>
+          plugin_name: capture
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.skipping' from '/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.venv/lib/python3.9/site-packages/_pytest/skipping.py'>
+          plugin_name: skipping
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.legacypath' from '/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.venv/lib/python3.9/site-packages/_pytest/legacypath.py'>
+          plugin_name: legacypath
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.tmpdir' from '/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.venv/lib/python3.9/site-packages/_pytest/tmpdir.py'>
+          plugin_name: tmpdir
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.monkeypatch' from '/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.venv/lib/python3.9/site-packages/_pytest/monkeypatch.py'>
+          plugin_name: monkeypatch
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.recwarn' from '/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.venv/lib/python3.9/site-packages/_pytest/recwarn.py'>
+          plugin_name: recwarn
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.pastebin' from '/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.venv/lib/python3.9/site-packages/_pytest/pastebin.py'>
+          plugin_name: pastebin
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.assertion' from '/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.venv/lib/python3.9/site-packages/_pytest/assertion/__init__.py'>
+          plugin_name: assertion
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.junitxml' from '/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.venv/lib/python3.9/site-packages/_pytest/junitxml.py'>
+          plugin_name: junitxml
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.doctest' from '/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.venv/lib/python3.9/site-packages/_pytest/doctest.py'>
+          plugin_name: doctest
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.cacheprovider' from '/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.venv/lib/python3.9/site-packages/_pytest/cacheprovider.py'>
+          plugin_name: cacheprovider
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.freeze_support' from '/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.venv/lib/python3.9/site-packages/_pytest/freeze_support.py'>
+          plugin_name: freeze_support
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setuponly' from '/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.venv/lib/python3.9/site-packages/_pytest/setuponly.py'>
+          plugin_name: setuponly
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setupplan' from '/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.venv/lib/python3.9/site-packages/_pytest/setupplan.py'>
+          plugin_name: setupplan
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.stepwise' from '/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.venv/lib/python3.9/site-packages/_pytest/stepwise.py'>
+          plugin_name: stepwise
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unraisableexception' from '/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.venv/lib/python3.9/site-packages/_pytest/unraisableexception.py'>
+          plugin_name: unraisableexception
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.threadexception' from '/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.venv/lib/python3.9/site-packages/_pytest/threadexception.py'>
+          plugin_name: threadexception
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.warnings' from '/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.venv/lib/python3.9/site-packages/_pytest/warnings.py'>
+          plugin_name: warnings
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.logging' from '/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.venv/lib/python3.9/site-packages/_pytest/logging.py'>
+          plugin_name: logging
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.reports' from '/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.venv/lib/python3.9/site-packages/_pytest/reports.py'>
+          plugin_name: reports
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.faulthandler' from '/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.venv/lib/python3.9/site-packages/_pytest/faulthandler.py'>
+          plugin_name: faulthandler
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_base_url.plugin' from '/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.venv/lib/python3.9/site-packages/pytest_base_url/plugin.py'>
+          plugin_name: base_url
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_playwright.pytest_playwright' from '/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.venv/lib/python3.9/site-packages/pytest_playwright/pytest_playwright.py'>
+          plugin_name: playwright
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <CaptureManager _method='fd' _global_capturing=<MultiCapture out=<FDCapture 1 oldfd=6 _state='suspended' tmpfile=<_io.TextIOWrapper name="<_io.FileIO name=7 mode='rb+' closefd=True>" mode='r+' encoding='utf-8'>> err=<FDCapture 2 oldfd=8 _state='suspended' tmpfile=<_io.TextIOWrapper name="<_io.FileIO name=9 mode='rb+' closefd=True>" mode='r+' encoding='utf-8'>> in_=<FDCapture 0 oldfd=4 _state='started' tmpfile=<_io.TextIOWrapper name='/dev/null' mode='r' encoding='utf-8'>> _state='suspended' _in_suspended=False> _capture_fixture=None>
+          plugin_name: capturemanager
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'tests.conftest' from '/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/tests/conftest.py'>
+          plugin_name: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/tests/conftest.py
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          plugin_name: session
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x10a10e460>
+          plugin_name: lfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x10a10e5b0>
+          plugin_name: nfplugin
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <class '_pytest.legacypath.LegacyTmpdirPlugin'>
+          plugin_name: legacypath-tmpdir
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalReporter object at 0x10a1124f0>
+          plugin_name: terminalreporter
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.logging.LoggingPlugin object at 0x10a0f5310>
+          plugin_name: logging-plugin
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.fixtures.FixtureManager object at 0x10a4f2fd0>
+          plugin_name: funcmanage
+          manager: <_pytest.config.PytestPluginManager object at 0x10923b580>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_report_header [hook]
+          config: <_pytest.config.Config object at 0x109f0c400>
+          start_path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework
+          startdir: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework
+      early skip of rewriting module: email.parser [assertion]
+      early skip of rewriting module: email.feedparser [assertion]
+      early skip of rewriting module: email.errors [assertion]
+      early skip of rewriting module: email._policybase [assertion]
+      early skip of rewriting module: email.header [assertion]
+      early skip of rewriting module: email.quoprimime [assertion]
+      early skip of rewriting module: email.base64mime [assertion]
+      early skip of rewriting module: email.charset [assertion]
+      early skip of rewriting module: email.encoders [assertion]
+      early skip of rewriting module: quopri [assertion]
+      early skip of rewriting module: email.utils [assertion]
+      early skip of rewriting module: email._parseaddr [assertion]
+      early skip of rewriting module: calendar [assertion]
+      early skip of rewriting module: email.message [assertion]
+      early skip of rewriting module: uu [assertion]
+      early skip of rewriting module: email._encoded_words [assertion]
+      early skip of rewriting module: email.iterators [assertion]
+      finish pytest_report_header --> [['rootdir: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework', 'configfile: pytest.ini', 'plugins: base-url-2.1.0, playwright-0.7.1'], ['using: pytest-8.4.2', 'registered third-party plugins:', '  pytest-base-url-2.1.0 at /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.venv/lib/python3.9/site-packages/pytest_base_url/plugin.py', '  pytest-playwright-0.7.1 at /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.venv/lib/python3.9/site-packages/pytest_playwright/pytest_playwright.py']] [hook]
+    finish pytest_sessionstart --> [] [hook]
+    pytest_collection [hook]
+        session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+    perform_collect <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0> ['tests/cart_flow/test_cart_flow.py'] [collection]
+        pytest_collectstart [hook]
+            collector: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        finish pytest_collectstart --> [] [hook]
+        pytest_make_collect_report [hook]
+            collector: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        processing argument CollectionArgument(path=PosixPath('/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/tests/cart_flow/test_cart_flow.py'), parts=[], module_name=None) [collection]
+            pytest_collect_directory [hook]
+                path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework
+                parent: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+            finish pytest_collect_directory --> <Dir Playwright_Python_Framework> [hook]
+            pytest_collectstart [hook]
+                collector: <Dir Playwright_Python_Framework>
+            finish pytest_collectstart --> [] [hook]
+            pytest_make_collect_report [hook]
+                collector: <Dir Playwright_Python_Framework>
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x109f0c400>
+                  collection_path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.gitignore
+                  path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.gitignore
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  parent: <Dir Playwright_Python_Framework>
+                  file_path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.gitignore
+                  path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.gitignore
+              finish pytest_collect_file --> [] [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x109f0c400>
+                  collection_path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.pytest_cache
+                  path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.pytest_cache
+              finish pytest_ignore_collect --> True [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x109f0c400>
+                  collection_path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.venv
+                  path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.venv
+              finish pytest_ignore_collect --> True [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x109f0c400>
+                  collection_path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/Jenkinsfile
+                  path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/Jenkinsfile
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  parent: <Dir Playwright_Python_Framework>
+                  file_path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/Jenkinsfile
+                  path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/Jenkinsfile
+              finish pytest_collect_file --> [] [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x109f0c400>
+                  collection_path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/README.md
+                  path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/README.md
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  parent: <Dir Playwright_Python_Framework>
+                  file_path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/README.md
+                  path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/README.md
+              finish pytest_collect_file --> [] [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x109f0c400>
+                  collection_path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/ddt
+                  path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/ddt
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_directory [hook]
+                  path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/ddt
+                  parent: <Dir Playwright_Python_Framework>
+              finish pytest_collect_directory --> <Package ddt> [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x109f0c400>
+                  collection_path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/fixture_tests
+                  path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/fixture_tests
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_directory [hook]
+                  path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/fixture_tests
+                  parent: <Dir Playwright_Python_Framework>
+              finish pytest_collect_directory --> <Dir fixture_tests> [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x109f0c400>
+                  collection_path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/fixtures
+                  path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/fixtures
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_directory [hook]
+                  path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/fixtures
+                  parent: <Dir Playwright_Python_Framework>
+              finish pytest_collect_directory --> <Package fixtures> [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x109f0c400>
+                  collection_path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/pages
+                  path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/pages
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_directory [hook]
+                  path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/pages
+                  parent: <Dir Playwright_Python_Framework>
+              finish pytest_collect_directory --> <Package pages> [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x109f0c400>
+                  collection_path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/pom
+                  path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/pom
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_directory [hook]
+                  path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/pom
+                  parent: <Dir Playwright_Python_Framework>
+              finish pytest_collect_directory --> <Package pom> [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x109f0c400>
+                  collection_path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/pom_tests
+                  path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/pom_tests
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_directory [hook]
+                  path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/pom_tests
+                  parent: <Dir Playwright_Python_Framework>
+              finish pytest_collect_directory --> <Dir pom_tests> [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x109f0c400>
+                  collection_path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/pytest.ini
+                  path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/pytest.ini
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  parent: <Dir Playwright_Python_Framework>
+                  file_path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/pytest.ini
+                  path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/pytest.ini
+              finish pytest_collect_file --> [] [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x109f0c400>
+                  collection_path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/pytestdebug.log
+                  path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/pytestdebug.log
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  parent: <Dir Playwright_Python_Framework>
+                  file_path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/pytestdebug.log
+                  path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/pytestdebug.log
+              finish pytest_collect_file --> [] [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x109f0c400>
+                  collection_path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/requirements.txt
+                  path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/requirements.txt
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  parent: <Dir Playwright_Python_Framework>
+                  file_path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/requirements.txt
+                  path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/requirements.txt
+              finish pytest_collect_file --> [] [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x109f0c400>
+                  collection_path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/test_plan
+                  path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/test_plan
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_directory [hook]
+                  path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/test_plan
+                  parent: <Dir Playwright_Python_Framework>
+              finish pytest_collect_directory --> <Dir test_plan> [hook]
+              pytest_collect_directory [hook]
+                  path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/tests
+                  parent: <Dir Playwright_Python_Framework>
+              finish pytest_collect_directory --> <Package tests> [hook]
+            finish pytest_make_collect_report --> <CollectReport '.' lenresult=8 outcome='passed'> [hook]
+            pytest_collectstart [hook]
+                collector: <Package tests>
+            finish pytest_collectstart --> [] [hook]
+            pytest_make_collect_report [hook]
+                collector: <Package tests>
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x109f0c400>
+                  collection_path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/tests/__init__.py
+                  path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/tests/__init__.py
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  parent: <Package tests>
+                  file_path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/tests/__init__.py
+                  path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/tests/__init__.py
+              finish pytest_collect_file --> [] [hook]
+              pytest_collect_directory [hook]
+                  path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/tests/cart_flow
+                  parent: <Package tests>
+              finish pytest_collect_directory --> <Package cart_flow> [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x109f0c400>
+                  collection_path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/tests/checkout
+                  path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/tests/checkout
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_directory [hook]
+                  path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/tests/checkout
+                  parent: <Package tests>
+              finish pytest_collect_directory --> <Package checkout> [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x109f0c400>
+                  collection_path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/tests/conftest.py
+                  path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/tests/conftest.py
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  parent: <Package tests>
+                  file_path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/tests/conftest.py
+                  path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/tests/conftest.py
+              finish pytest_collect_file --> [] [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x109f0c400>
+                  collection_path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/tests/login
+                  path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/tests/login
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_directory [hook]
+                  path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/tests/login
+                  parent: <Package tests>
+              finish pytest_collect_directory --> <Package login> [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x109f0c400>
+                  collection_path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/tests/logout
+                  path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/tests/logout
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_directory [hook]
+                  path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/tests/logout
+                  parent: <Package tests>
+              finish pytest_collect_directory --> <Package logout> [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x109f0c400>
+                  collection_path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/tests/product_listing
+                  path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/tests/product_listing
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_directory [hook]
+                  path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/tests/product_listing
+                  parent: <Package tests>
+              finish pytest_collect_directory --> <Package product_listing> [hook]
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x109f0c400>
+                  collection_path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/tests/test_example.py
+                  path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/tests/test_example.py
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  parent: <Package tests>
+                  file_path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/tests/test_example.py
+                  path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/tests/test_example.py
+                pytest_pycollect_makemodule [hook]
+                    parent: <Package tests>
+                    module_path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/tests/test_example.py
+                    path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/tests/test_example.py
+                finish pytest_pycollect_makemodule --> <Module test_example.py> [hook]
+              finish pytest_collect_file --> [<Module test_example.py>] [hook]
+            finish pytest_make_collect_report --> <CollectReport 'tests' lenresult=6 outcome='passed'> [hook]
+            pytest_collectstart [hook]
+                collector: <Package cart_flow>
+            finish pytest_collectstart --> [] [hook]
+            pytest_make_collect_report [hook]
+                collector: <Package cart_flow>
+              pytest_ignore_collect [hook]
+                  config: <_pytest.config.Config object at 0x109f0c400>
+                  collection_path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/tests/cart_flow/__init__.py
+                  path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/tests/cart_flow/__init__.py
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  parent: <Package cart_flow>
+                  file_path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/tests/cart_flow/__init__.py
+                  path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/tests/cart_flow/__init__.py
+              finish pytest_collect_file --> [] [hook]
+              pytest_collect_file [hook]
+                  parent: <Package cart_flow>
+                  file_path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/tests/cart_flow/test_cart_flow.py
+                  path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/tests/cart_flow/test_cart_flow.py
+                pytest_pycollect_makemodule [hook]
+                    parent: <Package cart_flow>
+                    module_path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/tests/cart_flow/test_cart_flow.py
+                    path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/tests/cart_flow/test_cart_flow.py
+                finish pytest_pycollect_makemodule --> <Module test_cart_flow.py> [hook]
+              finish pytest_collect_file --> [<Module test_cart_flow.py>] [hook]
+            finish pytest_make_collect_report --> <CollectReport 'tests/cart_flow' lenresult=1 outcome='passed'> [hook]
+        finish pytest_make_collect_report --> <CollectReport '' lenresult=1 outcome='passed'> [hook]
+        pytest_collectreport [hook]
+            report: <CollectReport '' lenresult=1 outcome='passed'>
+        finish pytest_collectreport --> [] [hook]
+    genitems <Module test_cart_flow.py> [collection]
+      pytest_collectstart [hook]
+          collector: <Module test_cart_flow.py>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Module test_cart_flow.py>
+      early skip of rewriting module: tests.cart_flow [assertion]
+      find_module called for: tests.cart_flow.test_cart_flow [assertion]
+      matched test file (was specified on cmdline): '/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/tests/cart_flow/test_cart_flow.py' [assertion]
+      found cached rewritten pyc for /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/tests/cart_flow/test_cart_flow.py [assertion]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_cart_flow.py>
+            name: @py_builtins
+            obj: <module 'builtins' (built-in)>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_cart_flow.py>
+            name: @pytest_ar
+            obj: <module '_pytest.assertion.rewrite' from '/Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/.venv/lib/python3.9/site-packages/_pytest/assertion/rewrite.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_cart_flow.py>
+            name: login_user
+            obj: <function login_user at 0x10a8f5670>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_cart_flow.py>
+            name: test_add_and_remove_item_from_cart
+            obj: <function test_add_and_remove_item_from_cart at 0x10a9eeb80>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x10a9f8c10>
+            pytest_make_parametrize_id [hook]
+                config: <_pytest.config.Config object at 0x109f0c400>
+                val: chromium
+                argname: browser_name
+            finish pytest_make_parametrize_id --> None [hook]
+          early skip of rewriting module: encodings.unicode_escape [assertion]
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_add_and_remove_item_from_cart[chromium]>] [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module test_cart_flow.py>
+            name: test_cart_page_shows_selected_items
+            obj: <function test_cart_page_shows_selected_items at 0x10a966d30>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x10a9f8c10>
+            pytest_make_parametrize_id [hook]
+                config: <_pytest.config.Config object at 0x109f0c400>
+                val: chromium
+                argname: browser_name
+            finish pytest_make_parametrize_id --> None [hook]
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_cart_page_shows_selected_items[chromium]>] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'tests/cart_flow/test_cart_flow.py' lenresult=2 outcome='passed'> [hook]
+    genitems <Function test_add_and_remove_item_from_cart[chromium]> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_add_and_remove_item_from_cart[chromium]>
+      finish pytest_itemcollected --> [] [hook]
+    genitems <Function test_cart_page_shows_selected_items[chromium]> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_cart_page_shows_selected_items[chromium]>
+      finish pytest_itemcollected --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'tests/cart_flow/test_cart_flow.py' lenresult=2 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collection_modifyitems [hook]
+          session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          config: <_pytest.config.Config object at 0x109f0c400>
+          items: [<Function test_add_and_remove_item_from_cart[chromium]>, <Function test_cart_page_shows_selected_items[chromium]>]
+      finish pytest_collection_modifyitems --> [] [hook]
+      pytest_collection_finish [hook]
+          session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        pytest_report_collectionfinish [hook]
+            config: <_pytest.config.Config object at 0x109f0c400>
+            items: [<Function test_add_and_remove_item_from_cart[chromium]>, <Function test_cart_page_shows_selected_items[chromium]>]
+            start_path: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework
+            startdir: /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework
+        finish pytest_report_collectionfinish --> [] [hook]
+      finish pytest_collection_finish --> [] [hook]
+    finish pytest_collection --> None [hook]
+    pytest_runtestloop [hook]
+        session: <Session  exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=2>
+      pytest_runtest_protocol [hook]
+          item: <Function test_add_and_remove_item_from_cart[chromium]>
+          nextitem: <Function test_cart_page_shows_selected_items[chromium]>
+        pytest_runtest_logstart [hook]
+            nodeid: tests/cart_flow/test_cart_flow.py::test_add_and_remove_item_from_cart[chromium]
+            location: ('tests/cart_flow/test_cart_flow.py', 3, 'test_add_and_remove_item_from_cart[chromium]')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_add_and_remove_item_from_cart[chromium]>
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='base_url' scope='session' baseid=''>
+              request: <SubRequest 'base_url' for <Function test_add_and_remove_item_from_cart[chromium]>>
+          finish pytest_fixture_setup -->  [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='_verify_url' scope='session' baseid=''>
+              request: <SubRequest '_verify_url' for <Function test_add_and_remove_item_from_cart[chromium]>>
+          finish pytest_fixture_setup --> None [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='pytestconfig' scope='session' baseid=''>
+              request: <SubRequest 'pytestconfig' for <Function test_add_and_remove_item_from_cart[chromium]>>
+          finish pytest_fixture_setup --> <_pytest.config.Config object at 0x109f0c400> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='delete_output_dir' scope='session' baseid=''>
+              request: <SubRequest 'delete_output_dir' for <Function test_add_and_remove_item_from_cart[chromium]>>
+          finish pytest_fixture_setup --> None [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='browser_type_launch_args' scope='session' baseid=''>
+              request: <SubRequest 'browser_type_launch_args' for <Function test_add_and_remove_item_from_cart[chromium]>>
+          finish pytest_fixture_setup --> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='playwright' scope='session' baseid=''>
+              request: <SubRequest 'playwright' for <Function test_add_and_remove_item_from_cart[chromium]>>
+          finish pytest_fixture_setup --> <playwright._impl._playwright.Playwright object at 0x10aa942e0> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='browser_name' scope='session' baseid=''>
+              request: <SubRequest 'browser_name' for <Function test_add_and_remove_item_from_cart[chromium]>>
+          finish pytest_fixture_setup --> chromium [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='browser_type' scope='session' baseid=''>
+              request: <SubRequest 'browser_type' for <Function test_add_and_remove_item_from_cart[chromium]>>
+          finish pytest_fixture_setup --> <BrowserType name=chromium executable_path=/Users/Indira/Library/Caches/ms-playwright/chromium-1223/chrome-mac-arm64/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='connect_options' scope='session' baseid=''>
+              request: <SubRequest 'connect_options' for <Function test_add_and_remove_item_from_cart[chromium]>>
+          finish pytest_fixture_setup --> None [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='launch_browser' scope='session' baseid=''>
+              request: <SubRequest 'launch_browser' for <Function test_add_and_remove_item_from_cart[chromium]>>
+          finish pytest_fixture_setup --> <function launch_browser.<locals>.launch at 0x10aae8160> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='browser' scope='session' baseid=''>
+              request: <SubRequest 'browser' for <Function test_add_and_remove_item_from_cart[chromium]>>
+          finish pytest_fixture_setup --> <Browser type=<BrowserType name=chromium executable_path=/Users/Indira/Library/Caches/ms-playwright/chromium-1223/chrome-mac-arm64/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing> version=148.0.7778.96> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='device' scope='session' baseid=''>
+              request: <SubRequest 'device' for <Function test_add_and_remove_item_from_cart[chromium]>>
+          finish pytest_fixture_setup --> None [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='_pw_artifacts_folder' scope='session' baseid=''>
+              request: <SubRequest '_pw_artifacts_folder' for <Function test_add_and_remove_item_from_cart[chromium]>>
+          finish pytest_fixture_setup --> <TemporaryDirectory '/var/folders/x8/p10jr2g52cv64w86f19cs28r0000gq/T/playwright-pytest-2flnygld'> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='browser_context_args' scope='session' baseid=''>
+              request: <SubRequest 'browser_context_args' for <Function test_add_and_remove_item_from_cart[chromium]>>
+          finish pytest_fixture_setup --> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='output_path' scope='function' baseid=''>
+              request: <SubRequest 'output_path' for <Function test_add_and_remove_item_from_cart[chromium]>>
+          finish pytest_fixture_setup --> /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/test-results/tests-cart-flow-test-cart-flow-py-test-add-and-remove-item-from-cart-chromium [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='_artifacts_recorder' scope='function' baseid=''>
+              request: <SubRequest '_artifacts_recorder' for <Function test_add_and_remove_item_from_cart[chromium]>>
+          finish pytest_fixture_setup --> <pytest_playwright.pytest_playwright.ArtifactsRecorder object at 0x10aa94be0> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='new_context' scope='function' baseid=''>
+              request: <SubRequest 'new_context' for <Function test_add_and_remove_item_from_cart[chromium]>>
+          finish pytest_fixture_setup --> <function new_context.<locals>._new_context at 0x10ad19e50> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='context' scope='function' baseid=''>
+              request: <SubRequest 'context' for <Function test_add_and_remove_item_from_cart[chromium]>>
+          finish pytest_fixture_setup --> <BrowserContext browser=<Browser type=<BrowserType name=chromium executable_path=/Users/Indira/Library/Caches/ms-playwright/chromium-1223/chrome-mac-arm64/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing> version=148.0.7778.96>> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='page' scope='function' baseid=''>
+              request: <SubRequest 'page' for <Function test_add_and_remove_item_from_cart[chromium]>>
+          finish pytest_fixture_setup --> <Page url='about:blank'> [hook]
+        finish pytest_runtest_setup --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_add_and_remove_item_from_cart[chromium]>
+            call: <CallInfo when='setup' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/cart_flow/test_cart_flow.py::test_add_and_remove_item_from_cart[chromium]' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/cart_flow/test_cart_flow.py::test_add_and_remove_item_from_cart[chromium]' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/cart_flow/test_cart_flow.py::test_add_and_remove_item_from_cart[chromium]' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x109f0c400>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_add_and_remove_item_from_cart[chromium]>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_add_and_remove_item_from_cart[chromium]>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_add_and_remove_item_from_cart[chromium]>
+            call: <CallInfo when='call' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/cart_flow/test_cart_flow.py::test_add_and_remove_item_from_cart[chromium]' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/cart_flow/test_cart_flow.py::test_add_and_remove_item_from_cart[chromium]' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/cart_flow/test_cart_flow.py::test_add_and_remove_item_from_cart[chromium]' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x109f0c400>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_add_and_remove_item_from_cart[chromium]>
+            nextitem: <Function test_cart_page_shows_selected_items[chromium]>
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='page' scope='function' baseid=''>
+              request: <SubRequest 'page' for <Function test_add_and_remove_item_from_cart[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='page' scope='function' baseid=''>
+              request: <SubRequest 'page' for <Function test_add_and_remove_item_from_cart[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='context' scope='function' baseid=''>
+              request: <SubRequest 'context' for <Function test_add_and_remove_item_from_cart[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='context' scope='function' baseid=''>
+              request: <SubRequest 'context' for <Function test_add_and_remove_item_from_cart[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='new_context' scope='function' baseid=''>
+              request: <SubRequest 'new_context' for <Function test_add_and_remove_item_from_cart[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='new_context' scope='function' baseid=''>
+              request: <SubRequest 'new_context' for <Function test_add_and_remove_item_from_cart[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='_artifacts_recorder' scope='function' baseid=''>
+              request: <SubRequest '_artifacts_recorder' for <Function test_add_and_remove_item_from_cart[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='_artifacts_recorder' scope='function' baseid=''>
+              request: <SubRequest '_artifacts_recorder' for <Function test_add_and_remove_item_from_cart[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='output_path' scope='function' baseid=''>
+              request: <SubRequest 'output_path' for <Function test_add_and_remove_item_from_cart[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+        finish pytest_runtest_teardown --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_add_and_remove_item_from_cart[chromium]>
+            call: <CallInfo when='teardown' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/cart_flow/test_cart_flow.py::test_add_and_remove_item_from_cart[chromium]' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/cart_flow/test_cart_flow.py::test_add_and_remove_item_from_cart[chromium]' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/cart_flow/test_cart_flow.py::test_add_and_remove_item_from_cart[chromium]' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x109f0c400>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/cart_flow/test_cart_flow.py::test_add_and_remove_item_from_cart[chromium]
+            location: ('tests/cart_flow/test_cart_flow.py', 3, 'test_add_and_remove_item_from_cart[chromium]')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+      pytest_runtest_protocol [hook]
+          item: <Function test_cart_page_shows_selected_items[chromium]>
+          nextitem: None
+        pytest_runtest_logstart [hook]
+            nodeid: tests/cart_flow/test_cart_flow.py::test_cart_page_shows_selected_items[chromium]
+            location: ('tests/cart_flow/test_cart_flow.py', 18, 'test_cart_page_shows_selected_items[chromium]')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_cart_page_shows_selected_items[chromium]>
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='output_path' scope='function' baseid=''>
+              request: <SubRequest 'output_path' for <Function test_cart_page_shows_selected_items[chromium]>>
+          finish pytest_fixture_setup --> /Users/Indira/Desktop/Playwright_Projects/Playwright_Python_Framework/test-results/tests-cart-flow-test-cart-flow-py-test-cart-page-shows-selected-items-chromium [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='_artifacts_recorder' scope='function' baseid=''>
+              request: <SubRequest '_artifacts_recorder' for <Function test_cart_page_shows_selected_items[chromium]>>
+          finish pytest_fixture_setup --> <pytest_playwright.pytest_playwright.ArtifactsRecorder object at 0x10ae325b0> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='new_context' scope='function' baseid=''>
+              request: <SubRequest 'new_context' for <Function test_cart_page_shows_selected_items[chromium]>>
+          finish pytest_fixture_setup --> <function new_context.<locals>._new_context at 0x10ae1dc10> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='context' scope='function' baseid=''>
+              request: <SubRequest 'context' for <Function test_cart_page_shows_selected_items[chromium]>>
+          finish pytest_fixture_setup --> <BrowserContext browser=<Browser type=<BrowserType name=chromium executable_path=/Users/Indira/Library/Caches/ms-playwright/chromium-1223/chrome-mac-arm64/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing> version=148.0.7778.96>> [hook]
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='page' scope='function' baseid=''>
+              request: <SubRequest 'page' for <Function test_cart_page_shows_selected_items[chromium]>>
+          finish pytest_fixture_setup --> <Page url='about:blank'> [hook]
+        finish pytest_runtest_setup --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_cart_page_shows_selected_items[chromium]>
+            call: <CallInfo when='setup' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/cart_flow/test_cart_flow.py::test_cart_page_shows_selected_items[chromium]' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/cart_flow/test_cart_flow.py::test_cart_page_shows_selected_items[chromium]' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/cart_flow/test_cart_flow.py::test_cart_page_shows_selected_items[chromium]' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x109f0c400>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_cart_page_shows_selected_items[chromium]>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_cart_page_shows_selected_items[chromium]>
+          finish pytest_pyfunc_call --> True [hook]
+        finish pytest_runtest_call --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_cart_page_shows_selected_items[chromium]>
+            call: <CallInfo when='call' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/cart_flow/test_cart_flow.py::test_cart_page_shows_selected_items[chromium]' when='call' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/cart_flow/test_cart_flow.py::test_cart_page_shows_selected_items[chromium]' when='call' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/cart_flow/test_cart_flow.py::test_cart_page_shows_selected_items[chromium]' when='call' outcome='passed'>
+              config: <_pytest.config.Config object at 0x109f0c400>
+          finish pytest_report_teststatus --> ('passed', '.', 'PASSED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_cart_page_shows_selected_items[chromium]>
+            nextitem: None
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='page' scope='function' baseid=''>
+              request: <SubRequest 'page' for <Function test_cart_page_shows_selected_items[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='page' scope='function' baseid=''>
+              request: <SubRequest 'page' for <Function test_cart_page_shows_selected_items[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='context' scope='function' baseid=''>
+              request: <SubRequest 'context' for <Function test_cart_page_shows_selected_items[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='context' scope='function' baseid=''>
+              request: <SubRequest 'context' for <Function test_cart_page_shows_selected_items[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='new_context' scope='function' baseid=''>
+              request: <SubRequest 'new_context' for <Function test_cart_page_shows_selected_items[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='new_context' scope='function' baseid=''>
+              request: <SubRequest 'new_context' for <Function test_cart_page_shows_selected_items[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='_artifacts_recorder' scope='function' baseid=''>
+              request: <SubRequest '_artifacts_recorder' for <Function test_cart_page_shows_selected_items[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='_artifacts_recorder' scope='function' baseid=''>
+              request: <SubRequest '_artifacts_recorder' for <Function test_cart_page_shows_selected_items[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='output_path' scope='function' baseid=''>
+              request: <SubRequest 'output_path' for <Function test_cart_page_shows_selected_items[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='new_context' scope='function' baseid=''>
+              request: <SubRequest 'new_context' for <Function test_cart_page_shows_selected_items[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='new_context' scope='function' baseid=''>
+              request: <SubRequest 'new_context' for <Function test_add_and_remove_item_from_cart[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser_context_args' scope='session' baseid=''>
+              request: <SubRequest 'browser_context_args' for <Function test_add_and_remove_item_from_cart[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='_artifacts_recorder' scope='function' baseid=''>
+              request: <SubRequest '_artifacts_recorder' for <Function test_cart_page_shows_selected_items[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='_artifacts_recorder' scope='function' baseid=''>
+              request: <SubRequest '_artifacts_recorder' for <Function test_add_and_remove_item_from_cart[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser_context_args' scope='session' baseid=''>
+              request: <SubRequest 'browser_context_args' for <Function test_add_and_remove_item_from_cart[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='_pw_artifacts_folder' scope='session' baseid=''>
+              request: <SubRequest '_pw_artifacts_folder' for <Function test_add_and_remove_item_from_cart[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser_context_args' scope='session' baseid=''>
+              request: <SubRequest 'browser_context_args' for <Function test_add_and_remove_item_from_cart[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='device' scope='session' baseid=''>
+              request: <SubRequest 'device' for <Function test_add_and_remove_item_from_cart[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='new_context' scope='function' baseid=''>
+              request: <SubRequest 'new_context' for <Function test_cart_page_shows_selected_items[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='new_context' scope='function' baseid=''>
+              request: <SubRequest 'new_context' for <Function test_add_and_remove_item_from_cart[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser' scope='session' baseid=''>
+              request: <SubRequest 'browser' for <Function test_add_and_remove_item_from_cart[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser' scope='session' baseid=''>
+              request: <SubRequest 'browser' for <Function test_add_and_remove_item_from_cart[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='launch_browser' scope='session' baseid=''>
+              request: <SubRequest 'launch_browser' for <Function test_add_and_remove_item_from_cart[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='launch_browser' scope='session' baseid=''>
+              request: <SubRequest 'launch_browser' for <Function test_add_and_remove_item_from_cart[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='connect_options' scope='session' baseid=''>
+              request: <SubRequest 'connect_options' for <Function test_add_and_remove_item_from_cart[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='launch_browser' scope='session' baseid=''>
+              request: <SubRequest 'launch_browser' for <Function test_add_and_remove_item_from_cart[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser_type' scope='session' baseid=''>
+              request: <SubRequest 'browser_type' for <Function test_add_and_remove_item_from_cart[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser_type' scope='session' baseid=''>
+              request: <SubRequest 'browser_type' for <Function test_add_and_remove_item_from_cart[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser_name' scope='session' baseid=''>
+              request: <SubRequest 'browser_name' for <Function test_add_and_remove_item_from_cart[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='_artifacts_recorder' scope='function' baseid=''>
+              request: <SubRequest '_artifacts_recorder' for <Function test_cart_page_shows_selected_items[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='_artifacts_recorder' scope='function' baseid=''>
+              request: <SubRequest '_artifacts_recorder' for <Function test_add_and_remove_item_from_cart[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser_context_args' scope='session' baseid=''>
+              request: <SubRequest 'browser_context_args' for <Function test_add_and_remove_item_from_cart[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser_type' scope='session' baseid=''>
+              request: <SubRequest 'browser_type' for <Function test_add_and_remove_item_from_cart[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='playwright' scope='session' baseid=''>
+              request: <SubRequest 'playwright' for <Function test_add_and_remove_item_from_cart[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='launch_browser' scope='session' baseid=''>
+              request: <SubRequest 'launch_browser' for <Function test_add_and_remove_item_from_cart[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser_type_launch_args' scope='session' baseid=''>
+              request: <SubRequest 'browser_type_launch_args' for <Function test_add_and_remove_item_from_cart[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='delete_output_dir' scope='session' baseid=''>
+              request: <SubRequest 'delete_output_dir' for <Function test_add_and_remove_item_from_cart[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='_artifacts_recorder' scope='function' baseid=''>
+              request: <SubRequest '_artifacts_recorder' for <Function test_cart_page_shows_selected_items[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='output_path' scope='function' baseid=''>
+              request: <SubRequest 'output_path' for <Function test_cart_page_shows_selected_items[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='_artifacts_recorder' scope='function' baseid=''>
+              request: <SubRequest '_artifacts_recorder' for <Function test_add_and_remove_item_from_cart[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='output_path' scope='function' baseid=''>
+              request: <SubRequest 'output_path' for <Function test_add_and_remove_item_from_cart[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser_context_args' scope='session' baseid=''>
+              request: <SubRequest 'browser_context_args' for <Function test_add_and_remove_item_from_cart[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='device' scope='session' baseid=''>
+              request: <SubRequest 'device' for <Function test_add_and_remove_item_from_cart[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser_type_launch_args' scope='session' baseid=''>
+              request: <SubRequest 'browser_type_launch_args' for <Function test_add_and_remove_item_from_cart[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='delete_output_dir' scope='session' baseid=''>
+              request: <SubRequest 'delete_output_dir' for <Function test_add_and_remove_item_from_cart[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='pytestconfig' scope='session' baseid=''>
+              request: <SubRequest 'pytestconfig' for <Function test_add_and_remove_item_from_cart[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='_verify_url' scope='session' baseid=''>
+              request: <SubRequest '_verify_url' for <Function test_add_and_remove_item_from_cart[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='browser_context_args' scope='session' baseid=''>
+              request: <SubRequest 'browser_context_args' for <Function test_add_and_remove_item_from_cart[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='_verify_url' scope='session' baseid=''>
+              request: <SubRequest '_verify_url' for <Function test_add_and_remove_item_from_cart[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='base_url' scope='session' baseid=''>
+              request: <SubRequest 'base_url' for <Function test_add_and_remove_item_from_cart[chromium]>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+        finish pytest_runtest_teardown --> None [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_cart_page_shows_selected_items[chromium]>
+            call: <CallInfo when='teardown' result: None>
+        finish pytest_runtest_makereport --> <TestReport 'tests/cart_flow/test_cart_flow.py::test_cart_page_shows_selected_items[chromium]' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'tests/cart_flow/test_cart_flow.py::test_cart_page_shows_selected_items[chromium]' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'tests/cart_flow/test_cart_flow.py::test_cart_page_shows_selected_items[chromium]' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x109f0c400>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: tests/cart_flow/test_cart_flow.py::test_cart_page_shows_selected_items[chromium]
+            location: ('tests/cart_flow/test_cart_flow.py', 18, 'test_cart_page_shows_selected_items[chromium]')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+    finish pytest_runtestloop --> True [hook]
+    pytest_sessionfinish [hook]
+        session: <Session  exitstatus=0 testsfailed=0 testscollected=2>
+        exitstatus: 0
+      pytest_terminal_summary [hook]
+          terminalreporter: <_pytest.terminal.TerminalReporter object at 0x10a1124f0>
+          exitstatus: 0
+          config: <_pytest.config.Config object at 0x109f0c400>
+      finish pytest_terminal_summary --> [] [hook]
+    finish pytest_sessionfinish --> [] [hook]
+    pytest_unconfigure [hook]
+        config: <_pytest.config.Config object at 0x109f0c400>
+    finish pytest_unconfigure --> [] [hook]
